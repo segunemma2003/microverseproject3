@@ -2,25 +2,133 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Fork Me! FCC: Test Suite Template</title>
     <link rel="stylesheet" href="css/style.css">
   </head>
 
   <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-    <h1>Hello World, we are software developers!</h1>
-    <!--
 
-    Hello Camper!
+    <header id="header">
+        <nav id="nav-bar" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+              <div class="top-nav" id="navbarNav">
+                <div class="nav ml-auto justify-content-end">
+                  <ul class="nav-list">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#features">Features</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#pricing">Pricing</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+        </nav>
+        <div class="container firstRow" id="home">
+          <div class="row">
+            <div class="col-12 col-sm-8 col-md-8 col-lg-8">
+              <h1>Microverse Tours And Packages</h1>
+              <br>
+              <h4>On real-time, with Budget that can fit any pockets and with unlimited fun!!</h4>
+              <br>
+              <p>With extremely fun, one can relax to the fullest.</p>
+            </div>
+            <div class="col-12 col-sm-6 col-md-6 col-lg-6">
+              <img id="header-img" src="https://images.unsplash.com/photo-1487349384428-12b47aca925e?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" alt=#>
+            </div>
+          </div>
+        </div>
 
-    For now, the test suite only works in Chrome!
-    Please read the README below in the JS Editor before beginning.
-    Feel free to delete this message once you have read it.
-    Good luck and Happy Coding!
+    </header>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="container secondRow" id="features">
+      <div class="row">
+        <div class="col-12 col-sm-8 col-md-8 col-lg-8">
+          <h1>We offer:</h1>
+            <ul>
+              <li>Budget Packages For Everyone</li>
+              <li>Perfect Place To Visit with Guide</li>
+              <li>Included AC Hotel, with Included Food</li>
+              <li>We Got You Travelling fare Covered</li>
+              <li>Perfect Suite For Honeymoon Couple</li>
+              <li>24x7 Service available</li>
+            </ul>
+        </div>
 
-    - The freeCodeCamp Team
+        <br> <br><br><br><br>
 
-    -->
+        <div class="col-12 col-sm-4 col-md-4 col-lg-4">
+          <div class="video-container">
+            <iframe id="video" width="600" height="425"
+ src="https://www.youtube.com/embed/bAgkeogi_5E" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>                       </div>
+        </div>
+      </div>
+    <div>
+
+    <div class="container thirdRow" id="pricing">
+        <h4>Pricing</h4>
+        <p>Choose your plan below</p>
+    </div>
+
+  <div class="container">
+    <div class="columns">
+      <ul class="price">
+        <li class="header">Basic</li>
+        <li class="yel">$ 300.00</li>
+        <li>4 Day/3 Nights</li>
+        <li>Flight Included</li>
+        <li>Ac Rooms</li>
+        <li>-</li>
+        <li class="yel"><a href="#" class="button">Get it</a></li>
+      </ul>
+    </div>
+
+    <div class="columns">
+      <ul class="price">
+        <li class="header">Premium</li>
+        <li class="yel">$ 450.99</li>
+        <li>5 Day/4 Nights</li>
+        <li>Ac Room With Food</li>
+        <li>Free conveyence</li>
+        <li>Guide for sight seeing</li>
+        <li class="yel"><a href="#" class="button">Get it</a></li>
+      </ul>
+    </div>
+
+    <div class="columns">
+      <ul class="price">
+        <li class="header">Honeymoon</li>
+        <li class="yel">$ 599.99</li>
+        <li>nights7 Days/6</li>
+        <li>Suit Room, Food included</li>
+        <li>Pass To Royal Casino</li>
+        <li>5 Star Services</li>
+        <li class="yel"><a href="#" class="button">Get it</a></li>
+      </ul>
+    </div>
+  </div>
+    <br> <br><br><br><br>
+    <div class="container fourthRow">
+      <form id="form" action="https://www.freecodecamp.com/email-submit" method="get">
+        <label for="email">Email address</label>
+          <input id="email" type="email" class="form-control" name="email" placeholder="example@domain.com" required>
+            <small class="form-text text-muted">Click and subscribe for More details now!</small>
+              <input id="submit" class="button" type="submit">
+      </form>
+    </div>
+
+   <div class="flex-container">
+    <h3>Copyright &copy; 2020 | Created by Sajid and Segun</h3>
+   </div>
     <script  src="js/index.js"></script>
   </body>
 </html>
